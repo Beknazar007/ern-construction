@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — ERN Construction LLC</title>
+
+  <meta name="description" content="Contact ERN Construction LLC to discuss a project or submit a tender / RFP inquiry for remediation, hydraulic, road, bridge or building construction." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#091A12" />
+  <link rel="canonical" href="https://www.ern-construction.com/contact.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ERN Construction LLC" />
+  <meta property="og:title" content="Contact — ERN Construction LLC" />
+  <meta property="og:description" content="Discuss a project or submit a tender / RFP inquiry." />
+  <meta property="og:url" content="https://www.ern-construction.com/contact.html" />
+  <meta property="og:image" content="https://www.ern-construction.com/assets/img/og-image.svg" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+
+<nav aria-label="Primary">
+  <a href="/" class="nav-logo"><span>ERN</span> Construction</a>
+  <ul class="nav-center" id="nav-menu">
+    <li><a href="/company.html" data-i18n="nav.about">О компании</a></li>
+    <li><a href="/services.html" data-i18n="nav.services">Направления</a></li>
+    <li><a href="/projects.html" data-i18n="nav.projects">Проекты</a></li>
+    <li><a href="/hse.html">HSE</a></li>
+    <li><a href="/careers.html" data-i18n="nav.careers">Карьера</a></li>
+    <li><a href="/contact.html" data-i18n="nav.contact">Контакты</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch" role="group" aria-label="Language / Язык">
+      <button class="lang-btn active" data-lang="ru" aria-label="Русский">RU</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-scrim" id="nav-scrim" hidden></div>
+
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="breadcrumb"><a href="/" data-i18n="bc.home">Главная</a><span>/</span><span data-i18n="nav.contact">Контакты</span></div>
+  <p class="page-eyebrow" data-i18n="con.label">Контакты</p>
+  <h1 class="page-title" data-i18n="con.title">Обсудим ваш проект</h1>
+  <p class="page-desc" data-i18n="con.tagline">Каждый объект уникален. Мы готовы к детальному обсуждению — от первичной оценки сложности до комплексной реализации под ключ.</p>
+</section>
+
+<section id="contact">
+  <div class="inner contact-grid">
+    <div class="reveal">
+      <ul class="clist">
+        <li class="citem"><span class="clabel">Email</span><a href="mailto:info@ern-construction.com" class="cvalue">info@ern-construction.com</a></li>
+        <li class="citem"><span class="clabel" data-i18n="con.phone">Телефон</span><a href="tel:+0000000000" class="cvalue">+_ (___) ___-__-__</a></li>
+        <li class="citem"><span class="clabel" data-i18n="con.office">Офис</span><span class="cvalue">—</span></li>
+        <li class="citem"><span class="clabel" data-i18n="con.geo">Работаем</span><span class="cvalue" data-i18n="con.geo.val">Международные проекты &amp; СНГ</span></li>
+      </ul>
+
+      <div class="legal-block">
+        <p class="section-label" data-i18n="con.tenders.title" style="margin-bottom:0.8rem">Тендеры и RFP</p>
+        <p class="green-card-desc" data-i18n="con.tenders.desc" style="margin-bottom:1.4rem">Готовите тендер или запрос предложений (RFP)? Пришлите техническое задание — мы подготовим детальный ответ, включая методологию, сроки и команду проекта.</p>
+        <a href="mailto:info@ern-construction.com?subject=RFP%20Inquiry" class="btn-outline" data-i18n="con.tenders.btn">Отправить RFP →</a>
+      </div>
+    </div>
+    <div class="reveal rd2">
+      <form class="cform" id="contact-form" novalidate>
+        <div class="fgroup"><label for="f-name" data-i18n="form.name">Ваше имя</label><input id="f-name" name="name" type="text" placeholder="" data-i18n-ph="form.name.ph" required /></div>
+        <div class="fgroup"><label for="f-org" data-i18n="form.org">Организация</label><input id="f-org" name="org" type="text" placeholder="" data-i18n-ph="form.org.ph" /></div>
+        <div class="fgroup"><label for="f-email">Email</label><input id="f-email" name="email" type="email" placeholder="ivan@company.com" required /></div>
+        <div class="fgroup"><label for="f-msg" data-i18n="form.msg">Описание объекта или задачи</label><textarea id="f-msg" name="message" placeholder="" data-i18n-ph="form.msg.ph"></textarea></div>
+        <button type="submit" class="btn-primary" data-i18n="form.submit">Отправить запрос →</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="flogo"><span>ERN</span> Construction LLC</div>
+  <div class="fcopy">© 2025 ERN Construction LLC · ЭРН-Строй · Environmental Remediation Network</div>
+  <div class="fbadges"><span class="fbadge">ISO 14001</span><span class="fbadge">IAEA</span><span class="fbadge">ESG</span><span class="fbadge">OHSAS 18001</span></div>
+</footer>
+
+<script src="/assets/js/i18n.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

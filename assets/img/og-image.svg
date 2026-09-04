@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091A12"/>
+      <stop offset="0.5" stop-color="#0D2B1F"/>
+      <stop offset="1" stop-color="#112E22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="150" font-family="'JetBrains Mono', monospace" font-size="24" letter-spacing="8" fill="#D4860A">ENVIRONMENTAL REMEDIATION NETWORK</text>
+  <text x="76" y="360" font-family="'Barlow Condensed', sans-serif" font-size="220" font-weight="800" fill="#F5F7F5">ER<tspan fill="#D4860A">N</tspan></text>
+  <text x="80" y="430" font-family="'Barlow Condensed', sans-serif" font-size="40" letter-spacing="14" fill="#a8cfc4">CONSTRUCTION · LLC</text>
+  <text x="80" y="520" font-family="'Inter', sans-serif" font-size="30" fill="#C8D8D0">Radioactive &amp; chemical remediation · Hydraulic structures · Roads · Buildings</text>
+  <text x="80" y="565" font-family="'JetBrains Mono', monospace" font-size="20" letter-spacing="4" fill="#7A9B8E">ISO 14001 · IAEA · ESG · OHSAS 18001</text>
+</svg>

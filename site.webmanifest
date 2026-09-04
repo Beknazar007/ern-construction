@@ -1,0 +1,19 @@
+{
+  "name": "ERN Construction LLC",
+  "short_name": "ERN",
+  "description": "Full-cycle engineering and construction company — environmental remediation, hydraulic structures, roads, bridges and buildings.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#091A12",
+  "theme_color": "#091A12",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
