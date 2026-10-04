@@ -284,11 +284,15 @@ a.cvalue:hover{color:var(--white)}
 .form-status.err{background:rgba(80,26,26,0.4); border-left:3px solid #e2664f; color:#f3d0c8}
 
 /* FOOTER */
-footer{background:var(--dark); padding:2rem 3rem; border-top:1px solid rgba(200,216,208,0.07); display:flex; justify-content:space-between; align-items:center}
+footer{background:var(--dark); padding:2rem 3rem; border-top:1px solid rgba(200,216,208,0.07); display:flex; justify-content:space-between; align-items:center; gap:1.5rem; flex-wrap:wrap}
+.finfo{display:flex; flex-direction:column; gap:0.35rem}
 .flogo{font-family:'JetBrains Mono',monospace; font-size:0.9rem; letter-spacing:0.15em; color:var(--white)}
 .flogo span{color:var(--amber)}
 .fcopy{font-size:0.75rem; color:var(--muted)}
-.fbadges{display:flex; gap:0.8rem}
+.faddr{font-size:0.75rem; color:var(--muted)}
+.faddr a{color:inherit; text-decoration:none}
+.faddr a:hover{color:var(--white)}
+.fbadges{display:flex; gap:0.8rem; flex-wrap:wrap}
 .fbadge{font-family:'JetBrains Mono',monospace; font-size:0.58rem; letter-spacing:0.15em; padding:0.3rem 0.6rem; border:1px solid rgba(200,216,208,0.15); color:var(--muted)}
 
 /* SCROLL */
