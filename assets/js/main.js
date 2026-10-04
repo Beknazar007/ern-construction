@@ -32,7 +32,7 @@
   }
 
   // Contact form — submits to a Formspree endpoint (set your form ID below)
-  var FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+  var FORMSPREE_ENDPOINT = 'https://formspree.io/f/mwlpgjjq';
   var form = document.getElementById('contact-form');
   var status = document.getElementById('form-status');
   function showStatus(msg, kind) {
