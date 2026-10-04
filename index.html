@@ -1,75 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ERN Construction LLC — Environmental Remediation Network</title>
-
-  <!-- SEO -->
-  <meta name="description" content="ERN Construction LLC — full-cycle engineering and construction company. Radioactive and chemical site remediation, landfill closure, hydraulic structures, roads, bridges and buildings. IAEA and ISO 14001 compliant." />
-  <meta name="keywords" content="environmental remediation, radioactive remediation, tailings, IAEA, chemical contamination cleanup, landfill closure, hydraulic structures, HPP, dam construction, roads, bridges, ISO 14001, ESG, green construction" />
-  <meta name="author" content="ERN Construction LLC" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#091A12" />
-  <link rel="canonical" href="https://www.ern-construction.com/" />
-  <link rel="alternate" hreflang="en" href="https://www.ern-construction.com/" />
-  <link rel="alternate" hreflang="ru" href="https://www.ern-construction.com/ru/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.ern-construction.com/" />
-
-  <!-- Open Graph / social preview -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="ERN Construction LLC" />
-  <meta property="og:title" content="ERN Construction LLC — Environmental Remediation Network" />
-  <meta property="og:description" content="Full-cycle engineering & construction: radioactive and chemical site remediation, landfill closure, hydraulic structures, roads, bridges and buildings. IAEA & ISO 14001 compliant." />
-  <meta property="og:url" content="https://www.ern-construction.com/" />
-  <meta property="og:image" content="https://www.ern-construction.com/assets/img/og-image.svg" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:locale:alternate" content="ru_RU" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ERN Construction LLC — Environmental Remediation Network" />
-  <meta name="twitter:description" content="Full-cycle engineering & construction. Radioactive & chemical remediation, hydraulic structures, roads, bridges, buildings." />
-  <meta name="twitter:image" content="https://www.ern-construction.com/assets/img/og-image.svg" />
-
-  <!-- Icons & manifest -->
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/favicon.svg" />
-  <link rel="manifest" href="/site.webmanifest" />
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
-  <!-- Styles -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
-
-  <!-- Structured data -->
-  <script type="application/ld+json" src="/assets/schema-org.json"></script>
 </head>
 <body>
 
 <!-- NAV -->
-<nav aria-label="Primary">
-  <a href="/" class="nav-logo"><span>ERN</span> Construction</a>
-  <ul class="nav-center" id="nav-menu">
-    <li><a href="/company.html" >About</a></li>
-    <li><a href="/services.html" >Services</a></li>
-    <li><a href="/projects.html" >Projects</a></li>
-    <li><a href="/hse.html">HSE</a></li>
-    <li><a href="/careers.html" >Careers</a></li>
-    <li><a href="/contact.html" >Contact</a></li>
+<nav>
+  <a href="#" class="nav-logo"><span>ERN</span> Construction</a>
+  <ul class="nav-center">
+    <li><a href="#about" data-i18n="nav.about">О компании</a></li>
+    <li><a href="#services" data-i18n="nav.services">Направления</a></li>
+    <li><a href="#green" data-i18n="nav.green">Зелёная экономика</a></li>
+    <li><a href="#process" data-i18n="nav.process">Процесс</a></li>
+    <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
   </ul>
-  <div class="nav-right">
-    <div class="lang-switch" role="group" aria-label="Language / Язык">
-      <a class="lang-btn" href="/ru/" aria-label="Русский">RU</a>
-      <a class="lang-btn active" href="/" aria-label="English">EN</a>
-    </div>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
-      <span></span><span></span><span></span>
-    </button>
+  <div class="lang-switch">
+    <button class="lang-btn active" data-lang="ru">RU</button>
+    <button class="lang-btn" data-lang="en">EN</button>
   </div>
 </nav>
-<div class="nav-scrim" id="nav-scrim" hidden></div>
 
 <!-- HERO -->
 <section class="hero" id="home">
@@ -79,10 +35,12 @@
     <span class="abbr-letter">E</span><span class="abbr-letter">R</span><span class="abbr-letter">N</span>
   </h1>
   <p class="hero-fullname">Construction &nbsp;·&nbsp; LLC</p>
-  <p class="hero-desc" >A full-cycle engineering and construction company. We handle projects of any complexity — from radioactive site remediation and chemical contamination cleanup to road, bridge, and building construction.</p>
+  <p class="hero-desc" data-i18n="hero.desc">
+    Инженерно-строительная компания полного цикла. Работаем с объектами любой сложности — от рекультивации радиоактивных территорий и химически загрязнённых объектов до строительства дорог, мостов и зданий.
+  </p>
   <div class="hero-cta">
-    <a href="/services.html" class="btn-primary" >Our Services →</a>
-    <a href="/contact.html" class="btn-outline" >Get in Touch</a>
+    <a href="#services" class="btn-primary" data-i18n="hero.cta1">Наши направления →</a>
+    <a href="#contact" class="btn-outline" data-i18n="hero.cta2">Связаться с нами</a>
   </div>
   <div class="scroll-indicator"><div class="sline"></div><span>Scroll</span></div>
 </section>
@@ -90,12 +48,12 @@
 <!-- DIRECTIONS STRIP -->
 <div class="directions-strip">
   <div class="directions-inner">
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">☢️</span><span class="dir-label" >Radioactive Remediation</span></div>
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">☣️</span><span class="dir-label" >Chemical Contamination</span></div>
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">🏗️</span><span class="dir-label" >Landfill & MSW</span></div>
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">💧</span><span class="dir-label" >Hydraulic Structures</span></div>
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">🛣️</span><span class="dir-label" >Roads & Bridges</span></div>
-    <div class="dir-item"><span class="dir-icon" aria-hidden="true">🏢</span><span class="dir-label" >Buildings & Structures</span></div>
+    <div class="dir-item"><span class="dir-icon">☢️</span><span class="dir-label" data-i18n="dir.rad">Радиоактивная рекультивация</span></div>
+    <div class="dir-item"><span class="dir-icon">☣️</span><span class="dir-label" data-i18n="dir.chem">Химическое загрязнение</span></div>
+    <div class="dir-item"><span class="dir-icon">🗑️</span><span class="dir-label" data-i18n="dir.tbo">Полигоны ТБО</span></div>
+    <div class="dir-item"><span class="dir-icon">💧</span><span class="dir-label" data-i18n="dir.hydro">Гидротехнические сооружения</span></div>
+    <div class="dir-item"><span class="dir-icon">🛣️</span><span class="dir-label" data-i18n="dir.roads">Дороги и мосты</span></div>
+    <div class="dir-item"><span class="dir-icon">🏗️</span><span class="dir-label" data-i18n="dir.build">Здания и сооружения</span></div>
   </div>
 </div>
 
@@ -104,88 +62,227 @@
   <div class="numbers-inner">
 
     <div class="num-item reveal">
-      <div class="num-value">2<span class="num-unit" >M+</span></div>
-      <div class="num-label" >m³ of radioactive material transported and remediated</div>
+      <div class="num-value">2<span class="num-unit" data-i18n="num.mln">млн+</span></div>
+      <div class="num-label" data-i18n="num.1">м³ радиоактивного материала перевезено и рекультивировано</div>
     </div>
 
     <div class="num-divider"></div>
 
     <div class="num-item reveal rd1">
       <div class="num-value">20<span class="num-unit">+</span></div>
-      <div class="num-label" >tailings facilities built or brought to safe condition</div>
+      <div class="num-label" data-i18n="num.2">хвостохранилищ построено и приведено в безопасное состояние</div>
     </div>
 
     <div class="num-divider"></div>
 
     <div class="num-item reveal rd2">
-      <div class="num-value"><span class="num-icon" aria-hidden="true">🔬</span></div>
-      <div class="num-label" >In-house radiological laboratory — independent control on every site</div>
+      <div class="num-value"><span class="num-icon">🔬</span></div>
+      <div class="num-label" data-i18n="num.3">Собственная радиологическая лаборатория — независимый контроль на каждом объекте</div>
     </div>
 
     <div class="num-divider"></div>
 
     <div class="num-item reveal rd3">
       <div class="num-value">360<span class="num-unit">°</span></div>
-      <div class="num-label" >Full cycle: surveys, design, construction, monitoring</div>
+      <div class="num-label" data-i18n="num.4">Полный цикл: изыскания, проектирование, строительство, мониторинг</div>
     </div>
 
   </div>
 </div>
 
-<!-- ABOUT TEASER -->
+<!-- ABOUT -->
 <section id="about">
-  <div class="inner">
-    <div class="reveal">
-      <p class="section-label" >About the Company</p>
-      <h2 class="section-title" >More than remediation.<br>Full engineering lifecycle.</h2>
-      <p class="green-intro" >ERN Construction is a multi-discipline engineering and construction company. We specialize in complex projects that demand deep expertise, experience, and accountability.</p>
-      <a href="/company.html" class="btn-outline" style="margin-top:2rem" >More about the company →</a>
+  <div class="inner about-grid">
+    <div class="about-text reveal">
+      <p class="section-label" data-i18n="about.label">О компании</p>
+      <h2 class="section-title" data-i18n="about.title">Больше чем рекультивация.<br>Полный инженерный цикл.</h2>
+      <p data-i18n="about.p1">ERN Construction — многопрофильная инженерно-строительная компания. Наш профиль — сложные объекты, которые требуют специализированных знаний, опыта и ответственности.</p>
+      <p data-i18n="about.p2">Мы беремся за задачи, от которых другие отказываются: ликвидация радиоактивных загрязнений, объекты с СДЯВ и химическим заражением, закрытие и рекультивация полигонов ТБО, строительство гидротехнических сооружений — хвостохранилищ, ГЭС, дамб.</p>
+      <p data-i18n="about.p3">Параллельно строим транспортную инфраструктуру, коммерческие и промышленные здания — с тем же стандартом качества и экологической ответственностью.</p>
+    </div>
+    <div class="about-stats reveal rd2">
+      <div class="stat-card">
+        <div class="stat-number">IAEA<span> </span></div>
+        <div class="stat-desc" data-i18n="stat.1">Соответствие стандартам МАГАТЭ на всех радиологических объектах</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6<span>+</span></div>
+        <div class="stat-desc" data-i18n="stat.2">Направлений: от радиоактивной рекультивации до гражданского строительства</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">ESG<span>↑</span></div>
+        <div class="stat-desc" data-i18n="stat.3">Зелёная экономика и устойчивое развитие — принцип работы компании</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">ISO<span>+</span></div>
+        <div class="stat-desc" data-i18n="stat.4">ISO 14001, OHSAS 18001, международное экологическое законодательство</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICES TEASER -->
+<!-- SERVICES -->
 <section id="services">
   <div class="inner">
     <div class="services-header reveal">
       <div>
-        <p class="section-label" >Service Lines</p>
-        <h2 class="section-title" >What we build and restore</h2>
+        <p class="section-label" data-i18n="srv.label">Направления работы</p>
+        <h2 class="section-title" data-i18n="srv.title">Что мы строим и восстанавливаем</h2>
       </div>
-      <a href="/services.html" class="btn-outline" >All services →</a>
     </div>
-    <div class="teaser-grid reveal rd1">
-      <a href="/services/radioactive-remediation.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">☢️</span><div class="teaser-card-title" >Radioactive Remediation</div><p class="teaser-card-desc" >Decontamination and stabilization of uranium-mining tailings</p></a>
-      <a href="/services/chemical-contamination.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">☣️</span><div class="teaser-card-title" >Chemical Contamination</div><p class="teaser-card-desc" >Soil and groundwater cleanup from hazardous chemicals, petroleum products, heavy metals and chemical waste</p></a>
-      <a href="/services/landfills.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">🏗️</span><div class="teaser-card-title" >Landfill & MSW</div><p class="teaser-card-desc" >Design, construction and closure of municipal solid waste landfills</p></a>
-      <a href="/services/hydraulic-structures.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">💧</span><div class="teaser-card-title" >Hydraulic Structures</div><p class="teaser-card-desc" >HPPs, dams, reservoirs and tailings impoundments</p></a>
-      <a href="/services/roads-bridges.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">🛣️</span><div class="teaser-card-title" >Roads & Bridges</div><p class="teaser-card-desc" >Highways, bridge crossings and transport interchanges</p></a>
-      <a href="/services/buildings.html" class="teaser-card"><span class="teaser-card-icon" aria-hidden="true">🏢</span><div class="teaser-card-title" >Buildings & Structures</div><p class="teaser-card-desc" >Industrial, warehouse and commercial buildings</p></a>
+    <div class="services-grid">
+
+      <div class="service-card flagship reveal rd1">
+        <span class="service-num" data-i18n="s1.num">01 · ФЛАГМАНСКОЕ НАПРАВЛЕНИЕ</span>
+        <span class="service-icon">☢️</span>
+        <div class="service-title" data-i18n="s1.title">Радиоактивная рекультивация</div>
+        <p class="service-desc" data-i18n="s1.desc">Ликвидация радиоактивного загрязнения территорий, хвостохранилищ уранодобывающей промышленности и объектов ядерного наследия. Дезактивация, изоляция, долгосрочная стабилизация и мониторинг в соответствии с требованиями МАГАТЭ.</p>
+        <div class="service-tags"><span class="stag" data-i18n="s1.t1">Хвостохранилища</span><span class="stag" data-i18n="s1.t2">Урановое наследие</span><span class="stag" data-i18n="s1.t3">Дезактивация</span><span class="stag">МАГАТЭ / IAEA</span></div>
+      </div>
+
+      <div class="service-card flagship reveal rd2">
+        <span class="service-num" data-i18n="s2.num">02 · ФЛАГМАНСКОЕ НАПРАВЛЕНИЕ</span>
+        <span class="service-icon">☣️</span>
+        <div class="service-title" data-i18n="s2.title">Химическое загрязнение и СДЯВ</div>
+        <p class="service-desc" data-i18n="s2.desc">Рекультивация территорий, загрязнённых сильнодействующими ядовитыми веществами, нефтепродуктами, тяжёлыми металлами и промышленной химией. Комплексная очистка грунтов и подземных вод. Ликвидация последствий техногенных аварий.</p>
+        <div class="service-tags"><span class="stag">СДЯВ / HSMP</span><span class="stag" data-i18n="s2.t2">Тяжёлые металлы</span><span class="stag" data-i18n="s2.t3">Очистка грунтов</span><span class="stag" data-i18n="s2.t4">Техногенные аварии</span></div>
+      </div>
+
+      <div class="service-card reveal rd3">
+        <span class="service-num">03</span>
+        <span class="service-icon">🗑️</span>
+        <div class="service-title" data-i18n="s3.title">Полигоны ТБО и свалки</div>
+        <p class="service-desc" data-i18n="s3.desc">Проектирование, строительство и закрытие мусорных полигонов. Система дегазации и сбора свалочного биогаза, дренаж и изоляция фильтрата, биологическая рекультивация. Возврат территории в хозяйственный оборот.</p>
+        <div class="service-tags"><span class="stag" data-i18n="s3.t1">Дегазация</span><span class="stag" data-i18n="s3.t2">Биогаз</span><span class="stag" data-i18n="s3.t3">Фильтрат</span><span class="stag" data-i18n="s3.t4">Рекультивация</span></div>
+      </div>
+
+      <div class="service-card reveal rd1">
+        <span class="service-num">04</span>
+        <span class="service-icon">💧</span>
+        <div class="service-title" data-i18n="s4.title">Гидротехнические сооружения</div>
+        <p class="service-desc" data-i18n="s4.desc">Проектирование и строительство ГЭС, дамб, водохранилищ, хвостохранилищ и дренажных систем. Гидрогеологические изыскания, барьерные конструкции, защита водных объектов. Работа в сложных горных и геологических условиях.</p>
+        <div class="service-tags"><span class="stag" data-i18n="s4.t1">ГЭС</span><span class="stag" data-i18n="s4.t2">Дамбы</span><span class="stag" data-i18n="s4.t3">Хвостохранилища</span><span class="stag" data-i18n="s4.t4">Дренаж</span></div>
+      </div>
+
+      <div class="service-card reveal rd2">
+        <span class="service-num">05</span>
+        <span class="service-icon">🛣️</span>
+        <div class="service-title" data-i18n="s5.title">Дороги и мосты</div>
+        <p class="service-desc" data-i18n="s5.desc">Строительство и реконструкция автомобильных дорог, мостовых переходов и транспортных развязок. Проектирование с учётом нагрузки, климатических условий и требований к долговечности. Инфраструктурные решения для промышленных и труднодоступных районов.</p>
+        <div class="service-tags"><span class="stag" data-i18n="s5.t1">Автодороги</span><span class="stag" data-i18n="s5.t2">Мостовые переходы</span><span class="stag" data-i18n="s5.t3">Промышленные районы</span></div>
+      </div>
+
+      <div class="service-card reveal rd3">
+        <span class="service-num">06</span>
+        <span class="service-icon">🏗️</span>
+        <div class="service-title" data-i18n="s6.title">Здания и сооружения</div>
+        <p class="service-desc" data-i18n="s6.desc">Гражданское и промышленное строительство: производственные корпуса, складские комплексы, административные и коммерческие здания. Проектирование с соблюдением норм энергоэффективности и зелёного строительства.</p>
+        <div class="service-tags"><span class="stag" data-i18n="s6.t1">Промышленные здания</span><span class="stag" data-i18n="s6.t2">Коммерческая недвижимость</span><span class="stag">Green Building</span></div>
+      </div>
+
+    </div>
+    <div class="services-grid-wide">
+      <div class="service-card-wide reveal rd1">
+        <span class="scw-icon">📐</span>
+        <div>
+          <div class="scw-title" data-i18n="sw1.title">Инженерные изыскания и проектирование</div>
+          <p class="scw-desc" data-i18n="sw1.desc">Геотехнические и экологические изыскания, оценка рисков, разработка проектной и рабочей документации для объектов любой категории сложности — от рекультивации до гидротехнического строительства.</p>
+        </div>
+      </div>
+      <div class="service-card-wide reveal rd2">
+        <span class="scw-icon">📊</span>
+        <div>
+          <div class="scw-title" data-i18n="sw2.title">Экологический мониторинг и сопровождение</div>
+          <p class="scw-desc" data-i18n="sw2.desc">Долгосрочный контроль состояния грунтов, воды и воздуха после рекультивации. Лабораторные исследования, отчётность по стандартам МАГАТЭ, ВБ и национального законодательства.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- FINAL CTA -->
+<!-- GREEN -->
+<section id="green">
+  <div class="inner">
+    <div class="reveal">
+      <p class="section-label" data-i18n="green.label">Зелёная экономика</p>
+      <h2 class="section-title" data-i18n="green.title">Загрязнение —<br>это нераскрытый ресурс</h2>
+      <p class="green-intro" data-i18n="green.intro">ERN рассматривает каждый проблемный объект как возможность. Рекультивированный полигон, закрытое хвостохранилище, очищенный промышленный участок — это земля, энергия и инфраструктура, возвращённые в оборот зелёной экономики.</p>
+    </div>
+    <div class="green-cols reveal rd1">
+      <div class="green-card">
+        <div class="green-card-icon">♻️</div>
+        <div class="green-card-title" data-i18n="gc1.title">Полигоны → Территории</div>
+        <p class="green-card-desc" data-i18n="gc1.desc">Рекультивированные свалки становятся зелёными зонами, площадками для солнечной энергетики или строительства. Извлечённый биогаз — источник возобновляемой энергии.</p>
+      </div>
+      <div class="green-card">
+        <div class="green-card-icon">💧</div>
+        <div class="green-card-title" data-i18n="gc2.title">Водотоки → Чистая энергия</div>
+        <p class="green-card-desc" data-i18n="gc2.desc">Малые ГЭС на природных водотоках — стабильная генерация без выбросов CO₂. Гидротехническая экспертиза ERN позволяет реализовывать такие проекты в самых сложных условиях рельефа.</p>
+      </div>
+      <div class="green-card">
+        <div class="green-card-icon">🌱</div>
+        <div class="green-card-title" data-i18n="gc3.title">Загрязнение → Восстановление</div>
+        <p class="green-card-desc" data-i18n="gc3.desc">Каждый гектар рекультивированной земли — это возвращённое биоразнообразие, чистая вода и безопасная среда. Долгосрочный мониторинг гарантирует устойчивый результат.</p>
+      </div>
+    </div>
+    <div class="esg-row reveal rd2">
+      <div class="esg-item"><div class="esg-label">E — ENVIRONMENT</div><p class="esg-text" data-i18n="esg.e">Снижение экологического ущерба, восстановление биоразнообразия, минимизация углеродного следа на всех объектах</p></div>
+      <div class="esg-item"><div class="esg-label">S — SOCIAL</div><p class="esg-text" data-i18n="esg.s">Безопасность труда, работа с местными сообществами, защита здоровья населения вблизи объектов</p></div>
+      <div class="esg-item"><div class="esg-label">G — GOVERNANCE</div><p class="esg-text" data-i18n="esg.g">Прозрачность, соответствие МАГАТЭ и ВБ, международный аудит, долгосрочная ответственность за каждый объект</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="inner">
+    <div class="reveal">
+      <p class="section-label" data-i18n="proc.label">Как мы работаем</p>
+      <h2 class="section-title" data-i18n="proc.title">Полный цикл реализации проекта</h2>
+    </div>
+    <div class="process-steps reveal rd1">
+      <div class="pstep"><div class="pstep-num">01</div><div class="pstep-title" data-i18n="p1.title">Изыскания</div><p class="pstep-desc" data-i18n="p1.desc">Геотехнические и экологические исследования площадки</p></div>
+      <div class="pstep"><div class="pstep-num">02</div><div class="pstep-title" data-i18n="p2.title">Оценка рисков</div><p class="pstep-desc" data-i18n="p2.desc">Анализ загрязнения, концепция и стратегия проекта</p></div>
+      <div class="pstep"><div class="pstep-num">03</div><div class="pstep-title" data-i18n="p3.title">Проектирование</div><p class="pstep-desc" data-i18n="p3.desc">Инженерная и проектная документация</p></div>
+      <div class="pstep"><div class="pstep-num">04</div><div class="pstep-title" data-i18n="p4.title">Строительство</div><p class="pstep-desc" data-i18n="p4.desc">Реализация, контроль качества и безопасности</p></div>
+      <div class="pstep"><div class="pstep-num">05</div><div class="pstep-title" data-i18n="p5.title">Мониторинг</div><p class="pstep-desc" data-i18n="p5.desc">Долгосрочный экологический контроль и сдача объекта</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
-  <div class="inner reveal" style="text-align:center">
-    <p class="section-label" >Contact</p>
-    <h2 class="section-title" >Let's discuss your site</h2>
-    <p class="green-intro" style="margin:0 auto 2rem" >From initial complexity assessment to full turnkey delivery — get in touch to discuss your project.</p>
-    <a href="/contact.html" class="btn-primary" >Get in touch →</a>
+  <div class="inner contact-grid">
+    <div class="reveal">
+      <p class="section-label" data-i18n="con.label">Контакты</p>
+      <h2 class="section-title" data-i18n="con.title">Обсудим ваш проект</h2>
+      <p class="contact-tagline" data-i18n="con.tagline">Каждый объект уникален. Мы готовы к детальному обсуждению — от первичной оценки сложности до комплексной реализации под ключ.</p>
+      <ul class="clist">
+        <li class="citem"><span class="clabel">Email</span><a href="mailto:info@ern-construction.com" class="cvalue">info@ern-construction.com</a></li>
+        <li class="citem"><span class="clabel" data-i18n="con.phone">Телефон</span><span class="cvalue-multi"><a href="tel:+996990557755" class="cvalue">+996 990 557 755</a><a href="tel:+996220557755" class="cvalue">+996 220 557 755</a></span></li>
+        <li class="citem"><span class="clabel" data-i18n="con.office">Офис</span><span class="cvalue">ул. Токтогула, 125/1, Бишкек, Кыргызстан</span></li>
+        <li class="citem"><span class="clabel" data-i18n="con.geo">Работаем</span><span class="cvalue" data-i18n="con.geo.val">Международные проекты &amp; СНГ</span></li>
+      </ul>
+    </div>
+    <div class="reveal rd2">
+      <div class="cform">
+        <div class="fgroup"><label data-i18n="form.name">Ваше имя</label><input type="text" placeholder="" data-i18n-ph="form.name.ph" /></div>
+        <div class="fgroup"><label data-i18n="form.org">Организация</label><input type="text" placeholder="" data-i18n-ph="form.org.ph" /></div>
+        <div class="fgroup"><label>Email</label><input type="email" placeholder="ivan@company.com" /></div>
+        <div class="fgroup"><label data-i18n="form.msg">Описание объекта или задачи</label><textarea placeholder="" data-i18n-ph="form.msg.ph"></textarea></div>
+        <button class="btn-primary" id="form-submit" data-i18n="form.submit">Отправить запрос →</button>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="finfo">
-    <div class="flogo"><span>ERN</span> Construction LLC</div>
-    <div class="fcopy">© 2026 ERN Construction LLC · ЭРН-Строй · Environmental Remediation Network</div>
-    <div class="faddr">125/1 Toktogula St, Bishkek, Kyrgyzstan &middot; <a href="tel:+996990251717">+996 990 251 717</a></div>
-  </div>
+  <div class="flogo"><span>ERN</span> Construction LLC</div>
+  <div class="fcopy">© 2025 ERN Construction LLC · ЭРН-Строй · Environmental Remediation Network</div>
   <div class="fbadges"><span class="fbadge">ISO 14001</span><span class="fbadge">IAEA</span><span class="fbadge">ESG</span><span class="fbadge">OHSAS 18001</span></div>
 </footer>
 
-<!-- Scripts -->
 <script src="/assets/js/main.js"></script>
 </body>
 </html>
